@@ -26,7 +26,7 @@ public class ListAll extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list)
+        setContentView(R.layout.activity_list);;
 
         // Mostra um botão na Barra Superior para voltar
         getSupportActionBar().setTitle("CRUD DB SQLite - Listagem Geral");
